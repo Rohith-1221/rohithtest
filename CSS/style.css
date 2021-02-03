@@ -1,7 +1,41 @@
-h2{
-    background-color: cornflowerblue;
+h1{
+            
+    color:rgb(180, 30, 30);
+    text-align:center;
 }
-sample{
-    color:darkgreen;
-    background-color: darkgrey;
+.card1,#card2 {
+   border:3px solid;
+   margin:50px;
+   padding:30px;
+   width:300px;
 }
+.parent{
+    display:flex;
+    justify-content:space-between;
+}
+.card1{
+    flex:0.4;
+}
+#card2{
+    flex:0.4;
+    order:2;
+}
+.pass1,.pass2 {
+    border:3px solid;
+    margin:50px;
+    padding:30px;
+    width:300px;
+    border-color: chocolate;
+ }
+ .head{
+     display:flex;
+     justify-content:space-between;
+     color:blue;
+ }
+ .pass1{
+     flex:0.4;
+ }
+ .pass2{
+     flex:0.4;
+     order:2;
+ }

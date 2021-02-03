@@ -1,0 +1,45 @@
+h1{
+    color:red;
+    text-align:center;
+}
+.left,.right{
+    border:5px solid;
+    border-color:darkcyan;
+    padding: 10px;
+}
+.main{
+    display:flex;
+    
+}
+.left{
+    flex:1;
+}
+.right{
+    flex:3;
+}
+table,td,tr,th{
+    border:2px solid;
+    border-collapse: collapse;
+}
+@media screen and (max-width:400px){
+    .main{
+        flex-direction: column;
+    }
+    .left{
+        background-color: darkgrey;
+    }
+    .right{
+        background-color: lemonchiffon;
+    }
+}
+@media screen and (min-width:400px) and (max-width:768px){
+    .main{
+        flex-direction: column-reverse;
+    }
+    .left{
+        background-color: rgb(95, 206, 114);
+    }
+    .right{
+        background-color: rgb(66, 115, 179);
+    }
+}
