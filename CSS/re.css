@@ -1,0 +1,13 @@
+.row{
+    width:200px;
+}
+.col{
+    border:3px solid;
+}
+.main{
+    display:flex;
+    margin:20px;
+}
+.right{
+    border:10px solid #000000!important;
+}
