@@ -1,0 +1,26 @@
+.bike{
+    border:4px solid;
+    margin-left:40px;
+    margin-top:20px;
+    margin-right:40px;
+    padding:20px;
+}
+.car{
+    display: flex;
+    padding-left:40px;
+}
+.bus{
+    color:red;
+}
+.main1{
+    display:flex;
+}
+.core{
+    padding-right: 70px;
+}
+table,tr,th,td{
+    border:2px solid;
+}
+.btn{
+    border:2px solid;
+}
